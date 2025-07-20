@@ -1,0 +1,20 @@
+[project]
+name = "finance-agentic-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "chromadb>=1.0.15",
+    "faiss-cpu>=1.11.0.post1",
+    "google-cloud-aiplatform>=1.104.0",
+    "langchain>=0.3.26",
+    "langchain-google-genai>=2.1.8",
+    "pandas>=2.3.1",
+    "requests>=2.32.4",
+    "streamlit>=1.47.0",
+    "torch>=2.7.1",
+    "transformers>=4.53.2",
+    "yfinance>=0.2.65",
+]
